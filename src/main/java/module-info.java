@@ -1,2 +1,2 @@
-module io.github.http.signature {
+module http.signature {
 }
