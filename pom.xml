@@ -5,9 +5,22 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.http.signature</groupId>
+    <groupId>io.github</groupId>
     <artifactId>http-signature</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <url>https://github.com/svendiedrichsen/http-signature</url>
+
+    <properties>
+        <maven.compiler.release>21</maven.compiler.release>
+        <structured-fields.version>0.4</structured-fields.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.greenbytes.http</groupId>
+            <artifactId>structured-fields</artifactId>
+            <version>${structured-fields.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
